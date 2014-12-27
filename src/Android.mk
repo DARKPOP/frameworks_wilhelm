@@ -11,7 +11,6 @@ LOCAL_C_INCLUDES:= \
         $(call include-path-for, wilhelm)
 
 LOCAL_CFLAGS += -fvisibility=hidden -UNDEBUG
-LOCAL_CPPFLAGS := -fno-strict-aliasing
 
 LOCAL_MODULE := libOpenSLESUT
 
